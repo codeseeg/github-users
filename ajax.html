@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+
+       <form action="#">
+           <p>User not found!</p>
+        <input type="text" id="inp" placeholder="Search Github user">
+        <button id="btn">Get User</button>
+       </form>
+
+        <div> <h3 id="not-user"></h3></div>
+        
+        <div id="user-profile">
+            <div id="profile-pic"><img alt="nothing yet" id="avatar"></div>
+            <h2 id="username">username</h2>
+            <a target="_blank">Check Full Profile</a>
+            <div id="follow">
+                <h3>followings</h3>
+                <h3>followers</h3>
+                <h3 id="followings"></h3>
+                <h3 id="followers"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

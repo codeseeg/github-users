@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 5%;
+    background-color: rgb(138, 240, 240);
+}
+
+#container{
+    padding-top: 2em;
+}
+
+form{
+    text-align: center;
+    margin: auto;
+}
+
+p{
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 80%;
+    display: none;
+}
+
+input{
+    padding: .5em;
+    padding-inline: .8em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    background-color: rgb(221, 255, 255);
+    border: 1px solid rgb(180, 200, 238);
+    box-shadow: inset 1px 2px 2px rgb(240, 245, 255), inset -1px -2px 2px rgb(138, 240, 240);
+    border-radius: 5em;
+}
+
+button{
+    padding: .2em;
+    padding-inline: 1em;
+    font-size: 1em;
+    background-color: rgb(42, 36, 36);
+    color: rgb(240, 245, 255);
+    border-radius: 5em;
+    box-shadow: inset 1px 2px 2px rgb(87, 87, 87), inset -1px -2px 2px rgb(85, 85, 85);
+    cursor: pointer;
+}
+
+#user-profile{
+    background-color: rgb(138, 240, 240);
+    display: none;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    padding: 1em;
+    padding-bottom: 5em;
+    border-radius: 2em;
+    box-shadow: inset -3px -3px 5px rgb(148, 242, 242), inset -3px -3px 5px rgb(106, 184, 184);
+}
+
+#not-user{
+    margin: auto;
+    font-size: 1.2em;
+    color: rgb(39, 93, 95);
+    width: 100%;
+    text-align: center;
+}
+
+#profile-pic {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#avatar{
+    display: block;
+    width: 100%;
+    margin: auto;
+    border: 5px solid aliceblue;
+    border-radius: 2em;
+}
+
+h2#username, a {
+    display: inline-block;
+    margin: auto;
+    width: 49%;
+    text-align: center;
+}
+
+h2{
+    font-size: 1em;
+    color: rgb(39, 93, 95);
+    text-shadow: 2px 2px 10px rgb(164, 183, 200);
+}
+
+a{
+    font-size: .8em;
+    color: rgb(0, 14, 77);
+    cursor: pointer;
+    transition: .3s;
+}
+
+a:hover {
+    color: rgb(65, 65, 65);
+    font-size: .9em;
+}
+
+#follow{
+    display: block;
+    background-color: transparent;
+    box-shadow: inset 2px 2px 2px aliceblue, inset -2px -2px 2px rgb(70, 83, 79);
+    border-radius: 5em;
+    padding-block: 2%;
+    box-shadow: inset 2px 2px 2px aliceblue, inset -2px -2px 5px rgb(133, 165, 155);
+    border-radius: 5em;
+    margin-top: 5%;
+    padding-block: 1%;
+}
+
+#follow h3{
+    display: inline-block;
+    width: 48%;
+    font-size: 1.1em;
+    color: rgba(0, 61, 61, 0.932);
+    text-align: center;
+}
